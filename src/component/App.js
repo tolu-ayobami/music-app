@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from "react";
 import "./App.css";
-import{ Routes, Route, useNavigate } from "react-router-dom";
-import TopMusic from "./TopMusic";
+import{ Routes, Route, useNavigate } from "react-router-dom"
 
 import Home from "./home";
 import Player from "./player";
