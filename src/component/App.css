@@ -1,0 +1,643 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+
+
+:root{
+    --ff-primary: "Nunito", sans-serif;
+    
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: var(--ff-primary);
+    font-weight: 100; 
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+   
+}
+.times{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.time{
+    display: none;
+}
+
+
+.navcover{
+    padding-top: 50px;
+    padding-left: 25px;
+    color: rgb(221, 221, 221);
+    border-right: 1px solid gray;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    background-color: black;
+   
+}
+
+
+.logo span{
+    font-size: 25px;
+}
+
+
+.famusic{
+
+    color: red;
+}
+
+.bar{
+    color: rgb(255, 255, 255);
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    font-size: 18px;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.home:hover{
+    background-color: rgb(243, 56, 56);
+}
+
+.nav{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+
+.btn{
+   
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: black;
+    color: gray;
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+    
+}
+
+.hr{
+    
+    border: 1px solid gray;
+}
+
+.btnpart{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 30px;
+    width: 80%;
+    
+
+   
+}
+.barslog{
+    display: none;
+}
+
+.sear{
+    border: 1px solid gray;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-top: 30px;
+    
+    
+} 
+.sectionall{
+    display: flex;
+}
+
+
+.sear p{
+    color: gray;
+    font-size: 18px;
+}
+
+
+.sear input{
+    background-color: black;
+    color: rgb(204, 204, 204);
+    border: none;
+    outline: none;
+    font-size: 15px;
+    width: 80%;
+   
+}
+
+.board h2{
+    color: white;
+    font-size: 30px;
+}
+
+.board p{
+    color: white;
+    font-size: 17px;
+}
+
+.boardbtn{
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 170px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 17px;
+}
+
+.board{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 100px;
+    width: 100%;
+  
+}
+
+
+.homeall{
+    margin-left: 300px;
+    width: 70%;
+
+}
+
+
+.op{
+    display: flex;
+}
+.ab{
+    display: flex;
+    max-width: 100%;
+    gap: 20px;
+  
+}
+
+
+.boardall{
+    background-image: linear-gradient(to bottom right, red, blue);
+    box-sizing: border-box;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 8px;
+   
+   
+}
+.homeall hr{
+    margin-top: 20px;
+    border: 0.5px solid gray;
+  
+    
+}
+
+ .mu, .mu1{
+    display: flex;
+    overflow-x: auto;
+    gap: 30px;
+    
+  
+   
+}
+
+.ma{
+    display: flex;
+    flex-direction: column;
+   
+    gap: 10px;
+    margin-top: 40px;
+   
+    
+}
+
+
+.firstimg img, .secondimg img{
+    width: 160px;
+    border-radius: 8px 8px 0px 0px;
+    
+}
+
+.firstimg, .secondimg{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px;
+    box-sizing: border-box;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(56, 56, 56, 0.2), 0 6px 20px 0 rgba(61, 61, 61, 0.19);
+   
+}
+
+.classabout{
+    margin-top: 30px;
+    background-color: rgb(19, 19, 19);
+   
+    padding:20px;
+    padding-top: 20px;
+   
+}
+
+.li img{
+    width:9%;
+}
+
+.fav{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.li{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px 0 rgba(117, 116, 116, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0);
+    align-items: center;
+   
+}
+
+
+.ol{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-top: 20px;
+}
+
+
+.playercov{
+    width: 100%;
+    background-color: black;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 0;
+    height: 80px;
+    color: white;
+    border-top: 1px solid gray;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+   
+   
+}
+
+.po{
+    width: 100%;
+}
+
+
+.tag{
+    display: flex;
+}
+
+
+.uy img{
+    width: 40px;
+}
+
+.uy{
+    display:flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+.browseall{
+    margin-left: 300px;
+    width: 50%;
+}
+
+
+.search{
+    border: 1px solid gray;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-top: 30px;
+   
+
+    
+}
+
+
+.search input{
+    background-color: black;
+    color: rgb(204, 204, 204);
+    border: none;
+    outline: none;
+    font-size: 15px;
+    width: 80%;
+}
+
+.ko{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.search p{
+    color: gray;
+    font-size: 18px;
+}
+.al{ 
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    cursor: pointer;
+    margin-top: 70px;
+
+}
+
+.control{
+    display: flex;
+    gap: 20px;
+}
+/*
+.faq-header{
+color: white;
+}
+
+.question-text {
+    display: none;
+  }
+  */
+  .show-text .question-text{
+    transition: 3s;
+    display: block;
+    animation: ease-in-out;
+  }
+
+
+
+@media screen and (max-width:1100px)  {
+    .homeall{
+      width: 70%;
+      margin-left: 250px;
+    
+    }
+ 
+.browseall{
+    margin-left: 250px;
+    width: 70%;
+}
+
+    .ma{
+        width: 100%;
+    }
+
+.famusic{
+    font-size: 12px;
+    
+}
+.logo h2{
+    font-size: 18px;
+}
+
+.home h3{
+    font-size: 19px;
+}
+
+.home{
+     gap: 13px;
+}
+
+}
+
+@media screen and (max-width:1000px) {
+    .homeall{
+        width: 80%;
+        margin-left: 0;
+        margin: auto;
+      
+      }
+   
+.browseall{
+    margin-left: 0px;
+    width: 70%;
+    margin: auto;
+}
+    
+.home h3{
+    font-size: 17px;
+}
+
+
+.ab{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  
+}
+  
+.barslog{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.navcover{
+   
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: fixed;
+    bottom: 0;
+    left: -100%;
+    border-right: none;
+  }
+  
+  .cov{
+     left: 0;
+      
+  }
+  
+
+.time{
+    display: block;
+}
+
+    
+}
+
+@media screen and (max-width:700px)  {
+  
+    
+.ab{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  
+}
+    .time{
+        display: block;
+    }
+
+    .barslog{
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 0;
+    }
+    
+    
+.homeall{
+    width: 87%;
+    margin-left: 0;
+    margin: auto;
+  
+  }
+
+  .al img{
+    width: 200px;
+  }
+  
+.browseall{
+    margin-left: 0px;
+    width: 90%;
+    margin: auto;
+}
+
+.navcover{
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: fixed;
+    bottom: 0;
+    border-right: none;
+  }
+  
+  .cov{
+      display: block;
+      
+  }
+
+
+}
+
+@media screen and (max-width:500px) {
+    .homeall{
+        width: 91%;
+        margin-left: 0;
+        margin: auto;
+  
+      }
+
+
+      .ab{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      
+    }
+   
+
+    .barslog{
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 0;
+    }
+
+.navcover{
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: fixed;
+  bottom: 0;
+  border-right: none;
+}
+
+.cov{
+    display: block;
+    
+}
+
+
+
+.time{
+    display: block;
+}
+
+
+   }
+
+
+
+   @media screen and (max-width:350px) {
+    .homeall{
+        width: 92%;
+        margin-left: 0;
+        margin: auto;
+  
+      }
+
+   
+.ab{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  
+}
+
+    .barslog{
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 0;
+        
+    }
+
+
+  
+
+}
