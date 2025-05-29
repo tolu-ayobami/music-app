@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { FaSearch, FaStepBackward, FaStepForward, FaPlay, FaPause } from "react-icons/fa";
 import { useParams, Link } from "react-router-dom";
 
-const Search = ({ cant, search, get, isplaying, setisplaying }) => {
+const Search = ({ cant, search, isplaying, setisplaying }) => {
   const { playid } = useParams();
   const audioElem = useRef();
 
@@ -99,3 +99,4 @@ const Search = ({ cant, search, get, isplaying, setisplaying }) => {
 };
 
 export default Search;
+

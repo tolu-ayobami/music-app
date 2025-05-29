@@ -1,22 +1,9 @@
+import React from 'react'
 
-
-import React, { useState} from "react";
-import TopMusic from "./TopMusic";
-
-
-
-
-const About =() =>{
-
-    const [det, setDet] = useState (TopMusic);
-
-
-    return(
-
-<div ></div>
-
-
-    );
+function about() {
+  return (
+    <div>about</div>
+  )
 }
 
-export default About;
+export default about

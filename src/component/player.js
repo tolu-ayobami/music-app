@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import TopMusic from "./TopMusic";
 import {FaStepBackward} from "react-icons/fa"
 import {FaStepForward} from "react-icons/fa"
