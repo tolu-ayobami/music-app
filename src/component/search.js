@@ -88,7 +88,7 @@ const Search = ({ cant, search, isplaying, setisplaying }) => {
                   </div>
                 </>
               ) : (
-                <p style={{ color: "white", marginTop: "1rem" }}>No preview available for this track</p>
+                <p style={{ color: "whitesmoke", marginTop: "1rem" }}>No preview available for this track</p>
               )}
             </div>
           </div>
